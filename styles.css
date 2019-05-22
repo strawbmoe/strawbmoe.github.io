@@ -1,0 +1,17 @@
+body{
+    background: url("imgs/bg.jpg");
+}
+.jumbotron img{
+    width: 100%;
+}
+.container{
+    background: rgba(255,255,255,0.5);
+    padding: 0 5px;
+    width: 80%;
+}
+.jumbotron{
+    max-width:1500px;
+    width:100%;
+    padding: 0;
+    background-image:  url("https://via.placeholder.com/1500x400/666"); 
+}
