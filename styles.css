@@ -1,17 +1,38 @@
 body{
     background: url("imgs/bg.jpg");
+    font-family: 'Nunito', sans-serif;
 }
-.jumbotron img{
-    width: 100%;
-}
+
 .container{
-    background: rgba(255,255,255,0.5);
-    padding: 0 5px;
-    width: 80%;
+    background: rgba(235,235,235,0.6);
+    /* padding: 0 5px;
+    width: 80%; */
 }
+.jumbotron p{
+    font-weight: bold;
+}
+.jumbotron h1{
+    font-size: 4em;
+}
+
 .jumbotron{
-    max-width:1500px;
-    width:100%;
-    padding: 0;
-    background-image:  url("https://via.placeholder.com/1500x400/666"); 
+    max-height: 200px;
+    padding: 2rem 2rem;
+    background-color: rgb(221,30,37);
+    color: white;
+}
+
+.socials{
+    display: flex;
+}
+.social-container{
+    font-size: 5em;
+    color: #d66;
+}
+.downloads button{
+    font-size: 24px;
+    background-color: rgba(235,235,235,0.6);
+    width: 100%;
+    display: block;
+
 }
