@@ -1,0 +1,35 @@
+// definitions
+/* Color Theme Swatches in HSLA */
+$fontcol2: hsla(196, 50, 73, 1);
+$fontcol: hsla(40, 81, 95, 1);
+$fontcol1: hsla(38, 100, 84, 1);
+$emphasis: hsla(150, 61, 79, 1);
+$background: hsla(176, 61, 50, 1);
+
+body{
+    background-color: $background !important;
+    
+}
+body .container {
+    color: $fontcol;
+}
+
+em{
+    font-weight: 600;
+    color: #222
+}
+
+.tex{
+    display: block;
+    padding: 10px;
+}
+
+.heady{
+    text-align: right;
+    
+}
+
+.syxsy{
+    display: flex;
+    flex-flow: row;
+}

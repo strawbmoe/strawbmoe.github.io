@@ -1,38 +1,23 @@
-body{
-    background: url("imgs/bg.jpg");
-    font-family: 'Nunito', sans-serif;
-}
+/* Color Theme Swatches in HSLA */
+body {
+  background-color: #32cdc3 !important; }
 
-.container{
-    background: rgba(235,235,235,0.6);
-    /* padding: 0 5px;
-    width: 80%; */
-}
-.jumbotron p{
-    font-weight: bold;
-}
-.jumbotron h1{
-    font-size: 4em;
-}
+body .container {
+  color: #fdf6e8; }
 
-.jumbotron{
-    max-height: 200px;
-    padding: 2rem 2rem;
-    background-color: rgb(221,30,37);
-    color: white;
-}
+em {
+  font-weight: 600;
+  color: #222; }
 
-.socials{
-    display: flex;
-}
-.social-container{
-    font-size: 5em;
-    color: #d66;
-}
-.downloads button{
-    font-size: 24px;
-    background-color: rgba(235,235,235,0.6);
-    width: 100%;
-    display: block;
+.tex {
+  display: block;
+  padding: 10px; }
 
-}
+.heady {
+  text-align: right; }
+
+.syxsy {
+  display: flex;
+  flex-flow: row; }
+
+/*# sourceMappingURL=styles.css.map */
