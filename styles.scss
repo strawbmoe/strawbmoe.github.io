@@ -1,40 +1,46 @@
 // definitions
 /* Color Theme Swatches in HSLA */
-$fontcol2: hsla(196, 50, 73, 1);
-$fontcol: hsla(40, 81, 95, 1);
-$fontcol1: hsla(38, 100, 84, 1);
-$emphasis: hsla(150, 61, 79, 1);
-$background: hsla(176, 61, 50, 1);
+// $fontcol2: hsla(196, 50, 73, 1);
+// $fontcol: hsla(40, 81, 95, 1);
+// $fontcol1: hsla(38, 100, 84, 1);
+// $emphasis: hsla(150, 61, 79, 1);
+// $background: hsla(176, 61, 50, 1);
+
+/* Color Theme Swatches in HSLA */
+$background: hsla(312, 38, 25, 1);
+$bgg: hsla(331, 44, 37, 1);
+$bggg: hsla(346, 50, 49, 1);
+$fontcol: hsla(267, 27, 77, 1);
+$emphasis: hsla(249, 29, 67, 1);
+
+
 
 body{
-    background-color: $background !important;
-    
+  background: $bggg;
+  background-image: linear-gradient(209deg, $background 0%, $bgg 75%, $bggg 100%);
+  background-image: -moz-linear-gradient(209deg, $background 0%, $bgg 75%, $bggg 100%); 
+  background-image: -webkit-linear-gradient(209deg, $background 0%, $bgg 75%, $bggg 100%); 
+ 
+  //background: radial-gradient(30deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
-body .container {
+body p {
     color: $fontcol;
+}
+
+html{
+  height: 100%;
 }
 
 em{
     font-weight: 600;
-    color: #222
+    color: $emphasis;
 }
 
-#light {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    box-shadow: inset 0 0 150px 150px #000;
-    background: #fff;
-    z-index: 10;
-  }
-
-  .light-off {
-    box-shadow: inset 0 0 150px 250px #000 !important;
-  }
 
 .tex{
     display: block;
     padding: 10px;
+    width:315px;
 }
 
 .heady{
@@ -44,5 +50,13 @@ em{
 
 .syxsy{
     display: flex;
-    flex-flow: row;
+    
+}
+.cotnainer{
+  display: inline-block;
+  position:fixed;
+}
+
+.ghostywosty{
+  color: hsla(0, 100, 100, 0.02)
 }
